@@ -20,7 +20,7 @@ int main()
     float answer = num1 + num2;
 
     //prints answer 
-    std::cout << answer << endl;
+    std::cout << num1 << " + " << num2 << " = " << answer << endl;
 
     return 0;
 }

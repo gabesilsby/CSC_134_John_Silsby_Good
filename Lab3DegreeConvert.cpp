@@ -20,7 +20,9 @@ int main()
     //use 0.55556 as decimal instead of (5/9) for float value
     float CelsiusTemp = (FahrenheitTemp - 32) * (0.55556);
 
-    std::cout << CelsiusTemp <<endl;
+    //prints CelsiusTemp Value
+    
+    std::cout << CelsiusTemp << " degress Celsius" <<endl;
 
     return 0;
 

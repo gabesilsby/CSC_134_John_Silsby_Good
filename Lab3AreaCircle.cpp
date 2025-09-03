@@ -29,7 +29,7 @@ int main()
     double area = pi * rSqared; 
 
     //prints area
-    std::cout<< area <<endl;
+    std::cout<< area << " square units" << endl;
 
     return 0;
 

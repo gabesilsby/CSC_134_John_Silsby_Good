@@ -13,11 +13,14 @@ using namespace std;
 
 int main()
 {
+    //using int data type because no decimal points are used
     int length = 50;
     int width = 32;
 
+    //equation to calculate square footage
     int SquareFootage = length * width;
 
+    //prints squareFootage value
     std::cout<<SquareFootage<< " Square feet" << endl;
 
     return 0;
