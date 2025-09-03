@@ -1,7 +1,6 @@
-//@author:
-//@date:
-//@purpose:
-
+//@author: Gabe Silsby
+//@date: 9/02/25
+//@purpose: better grade
 /*
 5. Design and write a program that converts the temperature in degrees Fahrenheit to degrees Celsius. Also ensure you use floating point data
     types for your variables. Hint: use the formula C = (Fº -32) * 5/9 . Print the result to the console using cout.

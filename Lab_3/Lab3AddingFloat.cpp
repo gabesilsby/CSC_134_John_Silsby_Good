@@ -1,6 +1,6 @@
-//@author: 
-//@date:
-//@purpose: 
+//@author: Gabe Silsby
+//@date: 9/02/25
+//@purpose: better grade
 
 /*
 3. Design and write a program that adds two floating point values together and print the result to the console.

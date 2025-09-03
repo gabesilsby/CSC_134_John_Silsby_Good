@@ -1,6 +1,6 @@
 //@author: Gabe Silsby
-//@date: 
-//@purpose: 
+//@date: 9/02/25
+//@purpose: better grade
 
 /*
 2. Design and write a program that uses the C++ string class. The program should have three variables with the following names(verbiage, age 

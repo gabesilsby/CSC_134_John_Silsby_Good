@@ -1,6 +1,6 @@
-//@author:
-//@date:
-//@purpose:
+//@author: Gabe Silsby
+//@date: 9/02/25
+//@purpose: better grade
 
 /*
 8. Design and write a program that calculates the square footage of a new home. The length of the house is 50 feet and the width of the home 

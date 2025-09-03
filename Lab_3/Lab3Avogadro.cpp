@@ -1,6 +1,6 @@
-//@author: 
-//@date:
-//@purpose: 
+//@author: Gabe Silsby
+//@date: 9/02/25
+//@purpose: better grade
 
 /*
 4. Design and write a program to print Avogadro's number using E notation. You should create a variable to hold the number and print the result

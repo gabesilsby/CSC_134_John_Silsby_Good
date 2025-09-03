@@ -1,7 +1,6 @@
-//@author:
-//@date:
-//@purpose:
-
+//@author: Gabe Silsby
+//@date: 9/02/25
+//@purpose: better grade
 /*
 6. Design and write a program that calculates the area of a circle, 
 given the formula : 𝐴=𝜋𝑟2 . Let pi = 3.1415 and let the radius r = 19

@@ -1,7 +1,6 @@
-//@author:
-//@date:
-//@purpose:
-
+//@author: Gabe Silsby
+//@date: 9/02/25
+//@purpose: better grade
 /*
 7. Design and write a program that calculates the volume of a sphere, given the formula:𝑉=43𝜋𝑟3 Let 𝜋 = 3.1415, and radius r=7
 */
