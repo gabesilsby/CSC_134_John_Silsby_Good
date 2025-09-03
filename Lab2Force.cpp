@@ -24,7 +24,8 @@ int main()
     float accelerationInMetersPerSecondSquared = 9.81;
     float force = massInKg * accelerationInMetersPerSecondSquared;
 
-    std::cout << force << endl;
+    //this line prints the value
+    std::cout << force << " Newtons" << endl;
 
     return 0;
 
