@@ -28,9 +28,21 @@
     is 32 feet. Hint: use the equation A = Length x Width. Print the correct unit along with the result to the console.
 */
 
-#include <iostreams>
+#include <iostream>
 
 using namespace std; 
 
+
+int main() {
+    // Declare individual characters
+    char ch1 = 'H';
+    char ch2 = 'i';
+    char ch3 = '!';
+
+    // Print characters one by one
+    cout << ch1 << ch2 << ch3 << endl;
+
+    return 0;
+}
 
 
