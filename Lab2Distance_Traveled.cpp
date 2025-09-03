@@ -1,6 +1,7 @@
 //@author:
 //@date: 
 //@purpose:
+
 /*
 Design and write a program that calculates the distance travelled (x) given the following:
 Equation -> x = v * t , where x is the distance travelled
