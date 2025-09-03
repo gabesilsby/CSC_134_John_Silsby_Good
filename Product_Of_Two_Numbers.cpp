@@ -1,6 +1,7 @@
 //@author: Gabe Silsby
 //@date: 08/27/25
-//@purpose: 
+//@purpose: Design & write a program to calculate the product of two numbers and print the result to the console.
+
 
 
 //including iostream directive
