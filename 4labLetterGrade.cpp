@@ -46,19 +46,19 @@ int main()
     cout<<numberGrade<<endl;
 
     if (90.0 <= numberGrade && numberGrade <= 100.0)
-    {cout<<"letter A";}
+    {cout<<"letter A.\n";}
 
     if (numberGrade >= 80.0 && numberGrade <= 89.999)   //using lots of decimal points to ensure averages between 89 and 90 are accounted for
-    {cout<<"letter B";}
+    {cout<<"letter B.\n";}
 
     if (numberGrade >= 70.0 && numberGrade <= 79.999)   //using lots of decimal points to ensure averages between 79 and 80 are accounted for
-    {cout<<"letter C";}
+    {cout<<"letter C.\n";}
 
     if (numberGrade >= 60.0 && numberGrade <= 69.999)   //using lots of decimal points to ensure averages between 69 and 70 are accounted for
-    {cout<<"letter D";}
+    {cout<<"letter D.\n";}
 
     if (59.999 >= numberGrade)
-    {cout<<"letter F";}
+    {cout<<"letter F.\n";}
 
     
 
