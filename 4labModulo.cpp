@@ -16,4 +16,4 @@ int main ()
     else
         cout<<input<<" is odd"<<endl;
     return 0;
-}
+}   
