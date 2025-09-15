@@ -1,5 +1,5 @@
-//@author:
-//@date:
+//@author: Gabe Silsby
+//@date: 09/14/25
 //@purpose: 
 
 /*
@@ -30,7 +30,7 @@ using namespace std;
 
 int main()
 {
-    int intOne, intTwo, intThree;
+    int intOne, intTwo, intThree;   //declare int variables
     cout<<"What is your first integer? ";
     cin>>intOne;
 
@@ -40,12 +40,12 @@ int main()
     cout<<"What is your third integer? ";
     cin>>intThree;
 
-    float averageValue = (intOne+intTwo+intThree)/3.0;
+    float averageValue = (intOne+intTwo+intThree)/3.0;  //takes average of user inputs
 
-    float numberGrade = averageValue;
+    float numberGrade = averageValue;  //converts average to numberGrade variable
     cout<<numberGrade<<endl;
 
-    if (90.0 <= numberGrade && numberGrade <= 100.0)
+    if (90.0 <= numberGrade && numberGrade <= 100.0)    //comparing numberGrade to range of grade values for each letter grade
     {cout<<"letter A.\n";}
 
     if (numberGrade >= 80.0 && numberGrade <= 89.999)   //using lots of decimal points to ensure averages between 89 and 90 are accounted for
@@ -57,7 +57,7 @@ int main()
     if (numberGrade >= 60.0 && numberGrade <= 69.999)   //using lots of decimal points to ensure averages between 69 and 70 are accounted for
     {cout<<"letter D.\n";}
 
-    if (59.999 >= numberGrade)
+    if (59.999 >= numberGrade)  //if it isn't any of the above, it is an F
     {cout<<"letter F.\n";}
 
     

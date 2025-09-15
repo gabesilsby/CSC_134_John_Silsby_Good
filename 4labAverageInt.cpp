@@ -1,5 +1,5 @@
-//@author:
-//@date:
+//@author: Gabe Silsby
+//@date: 09/14/25
 //@purpose:
 
 /*
@@ -14,7 +14,7 @@ using namespace std;
 
 int main()
 {
-    int intOne, intTwo, intThree;
+    int intOne, intTwo, intThree; // declares int values for when inputting
     cout<<"What is your first integer? ";
     cin>>intOne;
     cout<<"What is your second integer? ";
@@ -24,8 +24,8 @@ int main()
 
     cin>>intThree;
 
-    float averageValue = (intOne+intTwo+intThree)/3.0;
+    float averageValue = (intOne+intTwo+intThree)/3.0;  //calculates the average value by adding int values then dividing by 3
 
-    std::cout <<"The average of your three numbers is " << averageValue << endl;
+    std::cout <<"The average of your three numbers is " << averageValue << endl;    //outputs the average value
     return 0;
 }

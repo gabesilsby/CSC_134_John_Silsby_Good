@@ -18,27 +18,25 @@ using namespace std;
 
 int main()
 {
-    int year;
+    int year; //declares year varialbe
 
     cout<<"Enter a year: ";
-    cin>>year;
+    cin>>year;  //takes user input
 
-    if (year%4==0)
+    if (year%4==0)  //if statement that sees if year is evenly divisible by 4
     {
-        if (year%100==0)
+        if (year%100==0)    //nested if statement that sees if year is evenly divisible by 100
             {
-                if (year%400==0)
+                if (year%400==0)    //nested if statement that sees if year is evenly divisible by 400
                     cout<<"The year you entered: " << year <<" is a leap year"<<endl;
-                else 
+                else    //if value isnt divisible by 400 but by 100 it isnt a leap year
                     cout<<"The year you entered: " << year <<" is NOT a leap year"<<endl;
-
             }
-        else
+        else    //if divisible by 4 and not 100 it is a leap year
             cout<<"The year you entered: " << year << " is a leap year"<<endl;
-
     }
-    else
-        cout<<"The year you entered: " << year <<" is NOT a leap year"<<endl;
+    else    //if it isnt divisible by 4, it isnt a leap year
+        cout<<"The year you entered: " << year << " is NOT a leap year"<<endl;
 
     return 0;
 }
