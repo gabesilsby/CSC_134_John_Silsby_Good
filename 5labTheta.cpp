@@ -28,12 +28,16 @@ int main()
     //converting theta to degrees
     double thetaDeg = thetaRad*(180/3.1415926536);
 
+    float cSquared = (lengthTriangle*lengthTriangle)+(heightTriangle*heightTriangle);
+    float c = pow(cSquared, 0.5);
+
+    cout<<c<<endl;
     cout<<thetaDeg<<endl;
 
     if (thetaDeg >= 53.13 && thetaDeg <= 53.139)
-        {cout<<"good stuff\n these dimensions are a 3-4-5 triangle";}
+        {cout<<"good stuff\nthese dimensions are a 3-4-5 triangle";}
     else
-        {cout<<"bad stuff\n this is NOT a 3-4-5 triangle";}
+        {cout<<"bad stuff\nthis is NOT a 3-4-5 triangle";}
 
     
 
