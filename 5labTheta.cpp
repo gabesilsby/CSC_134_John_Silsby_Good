@@ -1,5 +1,5 @@
-//@author: 
-//@date: 
+//@author: Gabe Silsby
+//@date: 09/21/25
 //@purpose:
 /*
 Design and write a program that calculates the angle(theta) of a right triangle given the following:
@@ -20,20 +20,29 @@ using namespace std;
 
 int main()
 {
+
+    //declare and initialize variables
     int lengthTriangle = 3;
     int heightTriangle = 4;
 
+    //use atan2 function to calculate theta in radians
     double thetaRad = atan2(heightTriangle, lengthTriangle);
 
     //converting theta to degrees
     double thetaDeg = thetaRad*(180/3.1415926536);
 
+<<<<<<< HEAD
     float cSquared = (lengthTriangle*lengthTriangle)+(heightTriangle*heightTriangle);
     float c = pow(cSquared, 0.5);
 
     cout<<c<<endl;
+=======
+    //print thetaDeg
+>>>>>>> 73e28d0 (commit for submission 09/21/25(comments))
     cout<<thetaDeg<<endl;
 
+    //if statement to decide if thetaDeg is within range of 3-4-5 triangle
+    //chose to do range instead of "==" because float data types hold extra decimals points
     if (thetaDeg >= 53.13 && thetaDeg <= 53.139)
         {cout<<"good stuff\nthese dimensions are a 3-4-5 triangle";}
     else
