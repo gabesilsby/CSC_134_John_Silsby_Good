@@ -17,15 +17,14 @@ using namespace std;
 int main()
 {
     int userInput;
-    int num;
     cout<<"enter an integer to see multiplication table: ";
     cin>>userInput;
     cout<<"Integer  |Table"<<endl;
     cout<<"------------------"<<endl;
 
-    for(num = 0; num <= 12; ++num)
+    for(int num = 0; num <= 12; ++num)
     {
-        float product = userInput*num;
+        int product = userInput*num;
         cout<<num<<"          "<<product<<endl;
 
     }

@@ -16,7 +16,7 @@ int main()
 
 int num;
 
-for(num=100; num >=1; --num)
+for(num=100; num >= 1; --num)
 {
     cout<<num<<endl;
 }

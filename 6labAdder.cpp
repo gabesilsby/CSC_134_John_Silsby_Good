@@ -1,5 +1,5 @@
-//@author:
-//@date:
+//@author: Gabe Silsby
+//@date: 09/26/25
 //@purpose:
 
 /*
@@ -22,7 +22,7 @@ int main()
 
     for(num = 0; num<50;++num)
     {
-        int sumOp = sumOp + adder;
+        sumOp = num + adder;
         cout<<sumOp<<endl;
     }
 

@@ -5,8 +5,8 @@
 /*
 5. Design and write a program that sets an integer variable named minNum 
 to the value of 0 and a variable named maxNum to 100. Implement a for-loop to 
-print each number and its square to a simple table on the console. An example o
-f the table format should look like the following, but with all 100 numbers and 
+print each number and its square to a simple table on the console. An example of
+the table format should look like the following, but with all 100 numbers and 
 squares populated in the table:
 
 Number | Number Squared 
@@ -26,7 +26,7 @@ int main()
     cout<<"Number | Number Squared"<<endl;
     cout<<"                       "<<endl;
 
-    for(minNum = 0; minNum<maxNum;++minNum)
+    for(minNum = 0; minNum<=maxNum;++minNum) //should it be to 99 or 100? ASKED QUESTION HERE
     {
         cout<<minNum<<"             "<<pow(minNum, 2)<<endl;
     }
