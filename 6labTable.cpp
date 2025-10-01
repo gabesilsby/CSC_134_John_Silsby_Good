@@ -1,5 +1,5 @@
-//@author:
-//@date:
+//@author: Gabe Silsby
+//@date: 09/25/27
 //@purpose:
 
 /*
@@ -19,13 +19,16 @@ int main()
     int userInput;
     cout<<"enter an integer to see multiplication table: ";
     cin>>userInput;
-    cout<<"Integer  |Table"<<endl;
+    cout<<"      Table"<<endl;
+    cout<<"Integer  |Product"<<endl;
     cout<<"------------------"<<endl;
 
+    //initialize the value as 0; whenever the number is less than or equal to 12, the condition is true; add 1 integer value for each loop
     for(int num = 0; num <= 12; ++num)
     {
+        //product is equal to userInput multiplied by the value of num
         int product = userInput*num;
-        cout<<num<<"          "<<product<<endl;
+        cout<<num<<"   x "<<userInput<<" =       "<<product<<endl;
 
     }
     return 0;

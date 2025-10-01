@@ -1,5 +1,5 @@
-//@author:
-//@date:
+//@author: Gabe Silsby 
+//@date: 09/24/25
 //@purpose:
 
 /*
@@ -17,10 +17,11 @@ using namespace std;
 int main()
 {
     int num;
-
+    //initialize num as 0; when num is less than or equal to 100 the condition is true; add 1 value to the variable each loop
     for(num = 0; num <=100; ++num)
     {
         cout<<num<<endl;
+        //once the num variable is equal to 100 the message below will be printed
         if(num==100)
             cout<<"the Accumulator value is: "<< num<<endl;
     }

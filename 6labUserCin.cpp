@@ -16,11 +16,13 @@ using namespace std;
 
 int main()
 {
+    //declare userInput variable integer data type
     int userInput;
     cout<<"enter your value: ";
+    //recieve value for userInput
     cin>>userInput;
     int num;
-
+    //initialize num as 0; when userInput is greater than num the condition is true; add 1 value to the num variable each loop
     for(num = 0; userInput > num; ++num)
     {
         cout<<num<<endl;

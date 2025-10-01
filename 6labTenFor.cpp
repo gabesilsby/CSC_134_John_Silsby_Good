@@ -16,9 +16,10 @@ using namespace std;
 int main()
 {
     int num;
-
+    //initialize num as 0; when num is less than or equal to 10 the condition is true; add 1 integer value to the num each loop
     for(num = 0; num <= 10; ++num)
     {
+        //print iteration
         cout<<num<<endl;
     }
 

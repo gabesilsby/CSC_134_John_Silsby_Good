@@ -1,5 +1,5 @@
-//@author:
-//@date:
+//@author: Gabe Silsby
+//@date: 09/24/25
 //@purpose:
 
 /*
@@ -21,12 +21,13 @@ using namespace std;
 
 int main()
 {
+    //initialize range variables
     int minNum = 0;
     int maxNum = 100;
     cout<<"Number | Number Squared"<<endl;
     cout<<"                       "<<endl;
-
-    for(minNum = 0; minNum<=maxNum;++minNum) //should it be to 99 or 100? ASKED QUESTION HERE
+    //initialize minNum as 0; when minNum is less than maxNum, the condition is true; add 1 value to variable each looop
+    for(minNum = 0; minNum<maxNum;++minNum) //instructions say to square "all 100 numbers" so max printed value will be 99 because 0 is printed first
     {
         cout<<minNum<<"             "<<pow(minNum, 2)<<endl;
     }

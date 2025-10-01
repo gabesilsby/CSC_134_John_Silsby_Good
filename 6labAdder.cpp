@@ -19,10 +19,14 @@ int main()
     int sumOp = 0;
     int adder = 10;
     int num;
-
+    //intialize num as 0; when num is less than 50 the condition is true; add 1 value to the variable each loop
     for(num = 0; num<50;++num)
     {
-        sumOp = num + adder;
+        //sum variable will be equal to the sum of num and 10 each loop
+        int sum = num + adder;
+        //each iteration the sumOp will increase by the prior sum value
+        sumOp = sumOp + sum;
+
         cout<<sumOp<<endl;
     }
 
