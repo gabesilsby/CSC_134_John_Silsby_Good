@@ -39,7 +39,7 @@ int main()
         //totalSales is equal to totalSales + daySales
         totalSales += daySales;
     }
-    //(I wrote the totalSales feature before reading what lab 2 wanted)
+    //(I write the totalSales feature before reading what lab 2 wanted)
     //writes the totalSales value to buffer and then the ouput text file once the for loop is satisfied
     outputFile<<"$"<<totalSales<<endl;
     
