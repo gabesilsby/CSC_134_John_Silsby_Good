@@ -13,12 +13,22 @@ using namespace std;
 
 int main()
 {
+    //declare array values (hardcoded) and sum initial value
     float array[5] = {1, 2, 3, 4, 5};
     float sum = 0;
+
+    //declare i as 0; when i is less than 5, the number of values array holds, the statement is true and the code will run; adds 1 value to i after each loop
     for (int i = 0; i < 5; i++)
     {
+        //if the value of i is 4 then it will print array[i] = to the terminal, otherwise it will do the same but with a +
+        if(i == 4)
+            cout<<array[i]<< " = ";
+        else
+            cout<<array[i]<< " + ";
+        //sums the values in the array
         sum += array[i];
+
     }
-cout<<sum;
+cout<<sum<<endl;
     
 }

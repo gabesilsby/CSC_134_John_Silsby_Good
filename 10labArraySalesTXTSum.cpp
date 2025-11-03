@@ -17,28 +17,40 @@ using namespace std;
 
 int main()
 {
+    //import object to read data from other file
     ifstream inputFile;
-    float numbers[5];
     inputFile.open("sales.txt");
-    int count = 0;
+    //declaring variables
+    int numOfValues = 0;
+    int arraySize = 0;
     int sum = 0;
+
+    //while the while condition is true, it will add 1 integer value to the arraySize (starting at zero)
+    //once the arraySize index number does not exist on sales.txt, the program will head to the next line making array and setting number of values
+    while(inputFile>>numOfValues)
+        arraySize++;
     
-    while(inputFile >> numbers[count]){
-        count++;
-        
-    }
-    /*for (int i = 0; i < 5; i++)
+    //making a constant variable for the arraySize for the array
+    const int arraySizeConst = arraySize;
+    float numbers[arraySizeConst];
+    //the while loop on line 29 reads through the whole file and leaves off at the end
+    //i closed and reopened the file to read through it again
+    inputFile.close();
+    inputFile.open("sales.txt");
+    
+    //declare i as zero; if i is less than arraySize the statement is true and the loop will run; add 1 value after each loop
+    for (int i = 0; i < arraySize; i++)
     {
-        inputFile >> numbers[i];
-    }
-    */
-    for (int i = 0; i < count; i++)
-    {
+        //retrieves the data of a new value from the txt file and stores it in numbers[i]
+        inputFile>>numbers[i];
+        //prints the value retrieved to the terminal
         cout<<numbers[i];
         cout<<endl;
+        //sums the values in the txt file
         sum += numbers[i];
     }
 
+    //closes the file and flushes the buffer
     inputFile.close();
 
     cout<<"Total: "<<sum<<endl;

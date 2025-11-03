@@ -20,22 +20,23 @@ using namespace std;
 
 int main()
 {
-    int grades[10] = {0};
+    //initializes the grades array and sets the number of values to 10
+    int grades[10];
     float total = 0;
 
-    cout<<"enter 10 grades: "<<endl;
-
+    cout<<"Enter 10 grades: "<<endl;
+    //declare i as 0; if i is less than 10 the statement is true and the loop wil run; add 1 value to i
     for (int i = 0; i < 10; i++)
     {
+        //ask user to enter grade #. also included index number that the grade is stored in
         cout<<"grade "<< i+1 <<endl<< "(index number " << i<< "):";
         cin>>grades[i];
+        //adds grade[i]'s value to total
         total += grades[i];
     }
+    //declare average is total divided by 10
     float average = total/10;
     cout<<endl<<"AVERAGE: "<< average;
 
     return 0;
-
-    
-    
 }
