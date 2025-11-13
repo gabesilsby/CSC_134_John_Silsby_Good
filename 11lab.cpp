@@ -26,7 +26,7 @@ int main()
     int m = 2;
     int b = 3;
     //implicitly size array
-    int point[] = {1, 2, 3, 4, 5, 6, 7};
+    int point[] = {0, 1, 2, 3, 4};
 
 
     //using nested (line 42) for loops to draw grid
@@ -35,15 +35,13 @@ int main()
     { 
         //wrote this in to include that the line passes through y = 3.
         //if y is equal to 3, then "3X" will print
-        if(y==3)
-            cout<<" 3X";
-        else{
+    
             //for single-digit numbers I added a space to make graph neater
             if(y <= 9)
                 cout<<" ";
             //prints y values on left
             cout<< y << "|";
-        }
+        
         //range-based for loop to print a point 
         //for every value stored in point array it will plot a point on the graph by using lineY = mx+b
         //if the lineY (point on line) is equal to the y value at that level it will print an "X"
@@ -54,17 +52,17 @@ int main()
         for(int x : point){
             int lineY = m * x + b;   
             if (y == lineY)
-                cout << "X";        
+                cout << "X ";        
             //for every point there is a y value that is not equal to lineY it will print a blank space
             else
-                cout << " ";
+                cout << "  ";
         }
         cout<<endl;
     }
     cout<<"  |";
 
     //initialize x as 0; if x is less than or equal to 4, the statement is true and the loop will run; add 1 int to x each loop
-    for (int x = 0; x <= 4; x++) 
+    for (int x = 0; x <= 15; x++) 
     {
         cout<<x<<"|";
     }
